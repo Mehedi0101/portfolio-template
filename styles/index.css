@@ -45,6 +45,7 @@ header{
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 6%;
+    background-color: antiquewhite;
 }
 
 
@@ -156,6 +157,12 @@ nav {
     .banner{
         background-image: none;
     }
+
+    .banner-info button{
+        display: block;
+        width: 60%;
+        margin-bottom: 2%;
+    }
 }
 
 
@@ -181,6 +188,11 @@ nav {
 
     .banner{
         flex-direction: column-reverse;
+    }   
+
+    .banner-info{
+        margin-top: 5%;
+        width: 80%;
     }
 
     .banner-info h2{
@@ -191,13 +203,14 @@ nav {
         font-size: 3.5rem;
         font-weight: 700;
     }
-    
-    .banner-img{
-        width: 70%;
+
+    .banner-info button{
+        display: block;
+        width: 60%;
+        margin-bottom: 2%;
     }
 
-    .banner-info{
-        margin-top: 5%;
-        width: 80%;
+    .banner-img{
+        width: 70%;
     }
 }
